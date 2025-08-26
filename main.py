@@ -1,7 +1,7 @@
 import requests,time,json
 
 def scrape_followings(user_id):
-    base_url = f"https://friends.roblox.com/v1/users/{user_id}/followings"
+    base_url = f"https://friends.roproxy.com/v1/users/{user_id}/followings"
     cursor = None
     page = 1
     all_ids = []
