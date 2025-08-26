@@ -1,6 +1,4 @@
-import requests
-import json
-import time
+import requests,time,json
 
 def scrape_followings(user_id):
     base_url = f"https://friends.roblox.com/v1/users/{user_id}/followings"
